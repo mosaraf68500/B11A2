@@ -1,0 +1,21 @@
+/* navbar responsive start */
+@media (max-width: 768px) {
+  .navbar ul li,
+  .navbar button,
+  .navbar h4 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .homebar {
+    display: block;
+  }
+}
+
+/* navbar responsive end */

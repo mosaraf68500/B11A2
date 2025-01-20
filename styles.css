@@ -1,19 +1,137 @@
-
-*{
+/* General Reset */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.title-font {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+  }
+  
+  /* Typography */
+  .title-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366; 
+    padding: 10px 20px; 
+    color: white; 
+    font-family: "Raleway", serif;
+  }
+  
+  /* Logo Section */
+  .navbar div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 10px; /
+  }
+  
+  .navbar img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+  }
+  
+  .navbar h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  /* Navigation Links */
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  .navbar ul li {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
 
-.font {
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+  .home{
+    color: #FEA301;
+  }
+
+  .about{
+    color: #01ACFD;
+  }
+
+  .facilities{
+    color: #05D4DF;
+  }
+
+  .admission{
+    color: #5D58EF;
+  }
+  
+  .navbar ul li:hover {
+    color: #ffd700; 
+  }
+  
+  /* Button Section */
+  .navbar button {
+    background-color: #FEA301; 
+    color: #003366;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar button:hover {
+    background-color: #ffffff; 
+    color: #003366; 
+  }
+
+
+  /* Container for the marquee */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    color: rgb(111, 49, 49); 
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  }
+  
+
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  @keyframes scroll-marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+
+   .homebar{
+    display: none;
+   }
+  
