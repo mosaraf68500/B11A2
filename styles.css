@@ -135,3 +135,61 @@
     display: none;
    }
   
+
+   /* hero section style start */
+   .hero-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 3rem;
+   }
+
+   .hero-title{
+    font-size: 3rem;
+
+   }
+   .empowering{
+    color: #FEA301;
+   }
+
+   .towards{
+    color: #01ACFD;
+   }
+
+   .hero-discrib{
+color: rgb(17, 17, 17);
+/* font-family: Quicksand; */
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 1rem;
+padding-bottom: 1.5rem;
+   }
+
+   .btn {
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(9, 9, 9, 0.1);
+}
+
+.btn:hover {
+    background-color: #312d2d;
+    transform: scale(1.05);
+}
+
+
+
+
+   /* hero section style end */
