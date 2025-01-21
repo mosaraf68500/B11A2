@@ -87,6 +87,12 @@
     top: 39%;
     font-size: .6rem;
   }
+  .card-btn > button{
+    border-radius: .5rem;
+    padding: 0.3rem .5rem;
+    /* font-size: .8rem; */
+    margin-bottom: 0.3rem;
+  }
   .our-stories-btn-div{
     padding-top: 3rem;
   }

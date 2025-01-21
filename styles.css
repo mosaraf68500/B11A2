@@ -304,7 +304,7 @@ padding-bottom: 1.5rem;
 }
 
 .read1:hover {
-    transform: scale(1.05); /* হোভার করলে টেক্সট একটু বড় হবে */
+    transform: scale(1.05); 
 }
 
 .read2 {
@@ -320,7 +320,7 @@ padding-bottom: 1.5rem;
 }
 
 .read2:hover {
-    transform: scale(1.05); /* হোভার করলে টেক্সট একটু বড় হবে */
+    transform: scale(1.05); 
 }
 
 
@@ -337,7 +337,7 @@ padding-bottom: 1.5rem;
 }
 
 .read3:hover {
-    transform: scale(1.05); /* হোভার করলে টেক্সট একটু বড় হবে */
+    transform: scale(1.05); 
 }
 
 
@@ -347,7 +347,7 @@ padding-bottom: 1.5rem;
     align-items: center;
     margin-top: 4rem;
     gap: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .arrow-left,
@@ -365,13 +365,16 @@ padding-bottom: 1.5rem;
    /* Our Stories style start */
 
 .our-stories-container {
-    background-image: url("./assets/bg.png");
+    /* background-image: url("./assets/bg.png"); */
     background-position: top left bottom right;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 1rem ;
-    background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    /* padding-top: 2rem ; */
+    background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 80%), url("./assets/bg.png");
 }
+
+/* background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("logo/header-background.png"); */
+
 .our-stories-title{
     font-size: 3rem;
     text-align: center;
@@ -381,6 +384,7 @@ padding-bottom: 1.5rem;
 .our-stories-content {
     width: 90%;
     margin: auto;
+    padding-top: 4rem;
 }
 
 .our-stories-parent-card {
@@ -603,6 +607,10 @@ top: 55%;
     justify-content: center;
     align-items: center;
 }
+
+.our-stories-btn:hover{
+    background-color: #312d2d;
+}
 /* Our Stories style end */
 
 
@@ -625,6 +633,9 @@ top: 55%;
     padding-top: 3rem;
   }
   
+  .section-title{
+    padding-bottom: 1rem;
+  }
   .footer-section {
     flex: 1;
     padding: 10px;
