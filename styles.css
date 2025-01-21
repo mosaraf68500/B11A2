@@ -9,7 +9,7 @@
   .title-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
   }
   
@@ -411,7 +411,7 @@ padding-bottom: 1.5rem;
 .our-stories-left-div > img {
     width: 100%;
     border-radius: .8rem .8rem 0 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 .our-stories-left-div > button {
@@ -421,7 +421,7 @@ padding-bottom: 1.5rem;
     border-radius: .5rem;
     padding: 0.5rem 1rem;
     font-size: .8rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     cursor: pointer;
 }
 
@@ -433,7 +433,7 @@ padding-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #000;
-    line-height: 1.4;
+    /* line-height: 1.4; */
     margin-bottom: 0.5rem;
     padding:0 1.5rem 0 1.5rem;
 }
@@ -443,7 +443,7 @@ padding-bottom: 1.5rem;
     color: #4d4d4d;
     line-height: 1.6;
     padding: 0 1.5rem 0 1.5rem ;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .our-stories-child-card {
@@ -587,7 +587,7 @@ top: 55%;
     margin-bottom: 0.5rem;
     position: absolute;
     left: 1.8rem;
-    top: 63%;
+    top: 58%;
 }
 
 
