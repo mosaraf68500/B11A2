@@ -16,6 +16,95 @@
   .homebar {
     display: block;
   }
+  .border{
+    border-bottom: 2px solid orange;
+    padding-top: 1rem;
+  }
+
+
+  /* hero section */
+  .hero-container{
+    flex-direction: column-reverse;
+  }
+
+  .hero-title{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero-discrib{
+    text-align: center;
+  }
+
+  .image{
+    /* padding: 1rem; */
+    width: 100%;
+    margin: auto;
+  }
+
+  .hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* curriculum-card */
+
+  .curriculum-card{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .curriculum-title{
+    font-size: 2rem;
+  }
+  .curriculum-container{
+    padding-top: 3rem;
+
+  }
+
+  .arrow{
+    display: none;
+  }
+
+
+  /* our stories */
+
+  .our-stories-title{
+    font-size: 2rem;
+  }
+
+  .our-stories-parent-card{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .our-stories-left-div{
+    display: none;
+  }
+
+  .child-btn1>button,
+  .child-btn2>button,
+  .child-btn3>button,
+  .child-btn4>button{
+    top: 39%;
+    font-size: .6rem;
+  }
+  .our-stories-btn-div{
+    padding-top: 3rem;
+  }
+
+  /* footer responsive  */
+  .footer-container{
+    grid-template-columns: repeat(1,1fr);
+    /* gap: .8rem; */
+  }
+
+  .footer-description{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .section-title{
+    padding-bottom: 1rem;
+  }
 }
 
 /* navbar responsive end */
